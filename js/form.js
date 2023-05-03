@@ -2,7 +2,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 
   //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-  const telefono = "573193660129";
+  const telefono = "573197660129";
 
   const nombre = document.querySelector("#cliente").value;
   const celular = document.querySelector("#celular").value;
@@ -14,7 +14,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   const barrio = document.querySelector("#barrio").value;
   const dirección = document.querySelector("#dirección").value;
   const código = document.querySelector("#código").value;
-  
+
   const resp = document.querySelector("#respuesta");
   
   resp.classList.remove("fail");
