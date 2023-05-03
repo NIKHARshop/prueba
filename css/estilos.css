@@ -38,10 +38,11 @@ body {
 }
 .formulario__titulo,
 .formulario__subtitulo {
-  color: rgba(143, 5, 5, 0.7);
+  color: rgba(238, 6, 6, 0.7);
 }
 .formulario__parrafo {
   color: #F2A20C;
+  font-size: 20px;
 }
 .formulario__input,
 .formulario__label {
